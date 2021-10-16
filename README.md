@@ -10,10 +10,10 @@ community contributions. It is based [donkeycar project](http://donkeycar.com), 
 
 ## Use Robopilot if you want to
 
-* Make a robot (rc car/drone) pilot its self.
+* Make a robot pilot its self.
 * Experiment with autopilots, mapping computer vision and neural networks.
 * Log sensor data. (images, user inputs, sensor readings)
-* Drive your car via a web or game controller.
+* Control your robot via a web or game controller.
 * Leverage community contributed driving data.
 
 
@@ -22,29 +22,18 @@ community contributions. It is based [donkeycar project](http://donkeycar.com), 
 * Nvidia TX1
 * RedCat Crawler 1/5
 * Xbox Kinect for PC
-* Intel Real Sense Camera
-* Intel Ready to Fly Drone
 
-![crawler](docs/nvidia-tx1.png)
-![crawler](docs/crawler.jpg)
-![drone](docs/drone-rtf.jpg)
+![JestonTX1](nvidia-tx1.png)
+![frame](crawler-frame.jpg)
+![camera](kinect.jpg)
 
+### Device
+![sideview](crawler-sideview.png)
+![topview](crawler-topview.png)
 
 #### Quick Links
 * [Donkeycar Updates & Examples](http://donkeycar.com)
 * [Build instructions and Software documentation](http://docs.donkeycar.com)
-* [Discord / Chat](https://discord.gg/PN6kFeA)
-
-![donkeycar](./docs/assets/build_hardware/donkey2.png)
-
-#### Use Donkey if you want to:
-* Make an RC car drive its self.
-* Compete in self driving races like [DIY Robocars](http://diyrobocars.com)
-* Experiment with autopilots, mapping computer vision and neural networks.
-* Log sensor data. (images, user inputs, sensor readings)
-* Drive your car via a web or game controller.
-* Leverage community contributed driving data.
-* Use existing CAD models for design upgrades.
 
 ### Get driving.
 After building a Donkey2 you can turn on your car and go to http://localhost:8887 to drive.
