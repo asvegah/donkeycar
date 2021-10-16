@@ -5,7 +5,7 @@
 
 The realization of autonomous movement of a robot within a given environment. Real-time mapping and recognition of objects through computer vision algorithms.
 
-Robopilot is minimalist and modular self driving library for Python. It is developed for hobbyists and students with a focus on allowing fast experimentation and easy
+Robopilot is minimalist and modular autonomous library for Python. It is developed for hobbyists and students with a focus on allowing fast experimentation and easy
 community contributions. It is based [donkeycar project](http://donkeycar.com), associated machine vision, communications and motor-control libraries and the CUDA and Tensor Flow deep-learning framework. In this study, computer vision and motor-control libraries are used together to design and develop a real-time visually and contextually intelligent autonomous vehicle that execute a given trajectory and provide a live, dense three-dimensional (3D) map of an area.
 
 ## Use Robopilot if you want to
