@@ -16,9 +16,7 @@ community contributions. It is based [donkeycar project](http://donkeycar.com), 
 * Control your robot via a web or game controller.
 * Leverage community contributed driving data.
 
-
 ### Platform
-
 * Nvidia TX1
 * RedCat Crawler 1/5
 * Xbox Kinect for PC
@@ -29,7 +27,6 @@ community contributions. It is based [donkeycar project](http://donkeycar.com), 
 
 ### Device
 ![sideview](crawler-sideview.png)
-![topview](crawler-topview.png)
 
 #### Quick Links
 * [Donkeycar Updates & Examples](http://donkeycar.com)
