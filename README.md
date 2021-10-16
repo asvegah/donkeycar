@@ -1,13 +1,34 @@
-# donkeycar: a python self driving library
 
-[![Build Status](https://travis-ci.org/autorope/donkeycar.svg?branch=dev)](https://travis-ci.org/autorope/donkeycar)
-[![CodeCov](https://codecov.io/gh/autoropoe/donkeycar/branch/dev/graph/badge.svg)](https://codecov.io/gh/autorope/donkeycar/branch/dev)
-[![PyPI version](https://badge.fury.io/py/donkeycar.svg)](https://badge.fury.io/py/donkeycar)
-[![Py versions](https://img.shields.io/pypi/pyversions/donkeycar.svg)](https://img.shields.io/pypi/pyversions/donkeycar.svg)
 
-Donkeycar is minimalist and modular self driving library for Python. It is
-developed for hobbyists and students with a focus on allowing fast experimentation and easy
-community contributions.
+
+# Robopilot : a python self driving library
+
+The realization of autonomous movement of a robot within a given environment. Real-time mapping and recognition of objects through computer vision algorithms.
+
+Robopilot is minimalist and modular autonomous library for Python. It is developed for hobbyists and students with a focus on allowing fast experimentation and easy
+community contributions. It is based [donkeycar project](http://donkeycar.com), associated machine vision, communications and motor-control libraries and the CUDA and Tensor Flow deep-learning framework. In this study, computer vision and motor-control libraries are used together to design and develop a real-time visually and contextually intelligent autonomous vehicle that execute a given trajectory and provide a live, dense three-dimensional (3D) map of an area.
+
+## Use Robopilot if you want to
+
+* Make a robot (rc car/drone) pilot its self.
+* Experiment with autopilots, mapping computer vision and neural networks.
+* Log sensor data. (images, user inputs, sensor readings)
+* Drive your car via a web or game controller.
+* Leverage community contributed driving data.
+
+
+### Platform
+
+* Nvidia TX1
+* RedCat Crawler 1/5
+* Xbox Kinect for PC
+* Intel Real Sense Camera
+* Intel Ready to Fly Drone
+
+![crawler](docs/nvidia-tx1.png)
+![crawler](docs/crawler.jpg)
+![drone](docs/drone-rtf.jpg)
+
 
 #### Quick Links
 * [Donkeycar Updates & Examples](http://donkeycar.com)
@@ -59,6 +80,3 @@ V.add(tub, inputs=['image'], outputs=['num_records'])
 #start the drive loop at 10 Hz
 V.start(rate_hz=10)
 ```
-
-See [home page](http://donkeycar.com), [docs](http://docs.donkeycar.com)
-or join the [Discord server](http://www.donkeycar.com/community.html) to learn more.
