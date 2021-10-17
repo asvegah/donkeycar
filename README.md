@@ -1,6 +1,4 @@
 
-
-
 # Robopilot : a python self driving library
 
 The realization of autonomous movement of a robot within a given environment. Real-time mapping and recognition of objects through computer vision algorithms.
@@ -25,12 +23,7 @@ community contributions. It is based [donkeycar project](http://donkeycar.com), 
 ![frame](crawler-frame.jpg)
 ![camera](kinect.jpg)
 
-### Device
 ![sideview](crawler-sideview.png)
-
-#### Quick Links
-* [Donkeycar Updates & Examples](http://donkeycar.com)
-* [Build instructions and Software documentation](http://docs.donkeycar.com)
 
 ### Get driving.
 After building a Donkey2 you can turn on your car and go to http://localhost:8887 to drive.
