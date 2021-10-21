@@ -1,5 +1,5 @@
 
-# Robo: Open-source hardware and software platform for general-purpose robot. 
+# Robo: open-source hardware and software platform for general-purpose robot. 
 
 *Robopilot : a python self driving library
 *Roborg :  open hardware platform
@@ -24,8 +24,8 @@ In this study, computer vision and motor-control libraries are used together to 
 * RedCat Crawler 1/5
 * Xbox Kinect for PC
 
-![platform](https://user-images.githubusercontent.com/37585803/138307564-64f23a74-e894-44e0-b4e7-70a3b7dc418c.png)
-![device](https://user-images.githubusercontent.com/37585803/138307558-db7a33be-3f5e-4881-9710-662330392356.png)
+![platform](https://user-images.githubusercontent.com/37585803/138308842-92476b43-2ebb-48f6-9952-89c73a331adc.png)
+![device](https://user-images.githubusercontent.com/37585803/138308832-0560e7c5-758e-479b-a845-1b87ab2cc608.png)
 
 ### Get driving.
 After building a Donkey2 you can turn on your car and go to http://localhost:8887 to drive.
