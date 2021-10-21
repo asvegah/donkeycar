@@ -1,8 +1,8 @@
 
 # Robo: open-source hardware and software platform for general-purpose robot. 
 
-*Robopilot : a python self driving library
-*Roborg :  open hardware platform
+* Robopilot : a python self driving library
+* Roborg :  open hardware platform
 
 The realization of autonomous movement of a robot within a given environment. Real-time mapping and recognition of objects through computer vision algorithms.
 
