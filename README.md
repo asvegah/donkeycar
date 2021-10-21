@@ -16,7 +16,7 @@ In this study, computer vision and motor-control libraries are used together to 
 * Control your robot via a web or game controller.
 * Leverage community contributed driving data.
 
-### Platform
+### Roborg: Open Hardware Platform
 * Nvidia TX1
 * RedCat Crawler 1/5
 * Xbox Kinect for PC
@@ -25,6 +25,7 @@ In this study, computer vision and motor-control libraries are used together to 
 ![frame](crawler-frame.jpg)
 ![camera](kinect.jpg)
 
+![arm](https://user-images.githubusercontent.com/37585803/138304539-f50c3198-5200-4dbf-82f8-21927e838f62.png)
 ![sideview](crawler-sideview.png)
 
 ### Get driving.
