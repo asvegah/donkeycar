@@ -24,8 +24,8 @@ In this study, computer vision and motor-control libraries are used together to 
 * RedCat Crawler 1/5
 * Xbox Kinect for PC
 
-![platform](https://user-images.githubusercontent.com/37585803/138307116-5477d320-27ef-43bb-a54a-d3190eec7b6d.png)
-![device](https://user-images.githubusercontent.com/37585803/138307111-7fd58150-c6b1-436e-87f0-738b54615084.png)
+![platform](https://user-images.githubusercontent.com/37585803/138307564-64f23a74-e894-44e0-b4e7-70a3b7dc418c.png)
+![device](https://user-images.githubusercontent.com/37585803/138307558-db7a33be-3f5e-4881-9710-662330392356.png)
 
 ### Get driving.
 After building a Donkey2 you can turn on your car and go to http://localhost:8887 to drive.
