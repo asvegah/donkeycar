@@ -1,5 +1,8 @@
 
-# Robopilot : a python self driving library
+# Robo: Open-source hardware and software platform for general-purpose robot. 
+
+*Robopilot : a python self driving library
+*Roborg :  open hardware platform
 
 The realization of autonomous movement of a robot within a given environment. Real-time mapping and recognition of objects through computer vision algorithms.
 
@@ -16,17 +19,13 @@ In this study, computer vision and motor-control libraries are used together to 
 * Control your robot via a web or game controller.
 * Leverage community contributed driving data.
 
-### Roborg: Open Hardware Platform
+### Test Platform
 * Nvidia TX1
 * RedCat Crawler 1/5
 * Xbox Kinect for PC
 
-![JestonTX1](nvidia-tx1.png)
-![frame](crawler-frame.jpg)
-![camera](kinect.jpg)
-
-![arm](https://user-images.githubusercontent.com/37585803/138304539-f50c3198-5200-4dbf-82f8-21927e838f62.png)
-![sideview](crawler-sideview.png)
+![platform](https://user-images.githubusercontent.com/37585803/138307116-5477d320-27ef-43bb-a54a-d3190eec7b6d.png)
+![device](https://user-images.githubusercontent.com/37585803/138307111-7fd58150-c6b1-436e-87f0-738b54615084.png)
 
 ### Get driving.
 After building a Donkey2 you can turn on your car and go to http://localhost:8887 to drive.
