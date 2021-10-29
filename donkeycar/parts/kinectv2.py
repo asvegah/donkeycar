@@ -20,16 +20,16 @@ import sys
 from pylibfreenect2 import Freenect2, SyncMultiFrameListener
 from pylibfreenect2 import FrameType, Registration, Frame
 
-try:
+""" try:
     from pylibfreenect2 import OpenGLPacketPipeline
     pipeline = OpenGLPacketPipeline()
+except: """
+try:
+    from pylibfreenect2 import OpenCLPacketPipeline
+    pipeline = OpenCLPacketPipeline()
 except:
-    try:
-        from pylibfreenect2 import OpenCLPacketPipeline
-        pipeline = OpenCLPacketPipeline()
-    except:
-        from pylibfreenect2 import CpuPacketPipeline
-        pipeline = CpuPacketPipeline()
+    from pylibfreenect2 import CpuPacketPipeline
+    pipeline = CpuPacketPipeline()
 print("Packet pipeline:", type(pipeline).__name__)
 fn = Freenect2()
 num_devices = fn.enumerateDevices()
