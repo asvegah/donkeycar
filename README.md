@@ -1,12 +1,15 @@
 
+# Robo: open-source hardware and software platform for general-purpose robot. 
 
-
-# Robopilot : a python self driving library
+* **Robopilot** : a python self driving library
+* **Roborg** :  open hardware platform
 
 The realization of autonomous movement of a robot within a given environment. Real-time mapping and recognition of objects through computer vision algorithms.
 
 Robopilot is minimalist and modular autonomous library for Python. It is developed for hobbyists and students with a focus on allowing fast experimentation and easy
-community contributions. It is based [donkeycar project](http://donkeycar.com), associated machine vision, communications and motor-control libraries and the CUDA and Tensor Flow deep-learning framework. In this study, computer vision and motor-control libraries are used together to design and develop a real-time visually and contextually intelligent autonomous vehicle that execute a given trajectory and provide a live, dense three-dimensional (3D) map of an area.
+community contributions. It is based [donkeycar project](http://donkeycar.com), associated machine vision, communications and motor-control libraries and the CUDA and Tensor Flow deep-learning framework. 
+
+In this study, computer vision and motor-control libraries are used together to design and develop a real-time visually and contextually intelligent autonomous robot that execute a given trajectory and provide a live, dense three-dimensional (3D) map of an area.
 
 ## Use Robopilot if you want to
 
@@ -16,24 +19,13 @@ community contributions. It is based [donkeycar project](http://donkeycar.com), 
 * Control your robot via a web or game controller.
 * Leverage community contributed driving data.
 
-
-### Platform
-
+### Test Platform
 * Nvidia TX1
 * RedCat Crawler 1/5
 * Xbox Kinect for PC
 
-![JestonTX1](nvidia-tx1.png)
-![frame](crawler-frame.jpg)
-![camera](kinect.jpg)
-
-### Device
-![sideview](crawler-sideview.png)
-![topview](crawler-topview.png)
-
-#### Quick Links
-* [Donkeycar Updates & Examples](http://donkeycar.com)
-* [Build instructions and Software documentation](http://docs.donkeycar.com)
+![platform](https://user-images.githubusercontent.com/37585803/138308842-92476b43-2ebb-48f6-9952-89c73a331adc.png)
+![device](https://user-images.githubusercontent.com/37585803/138308832-0560e7c5-758e-479b-a845-1b87ab2cc608.png)
 
 ### Get driving.
 After building a Donkey2 you can turn on your car and go to http://localhost:8887 to drive.
