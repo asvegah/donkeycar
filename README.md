@@ -1,5 +1,5 @@
 
-# Roborg: open-source hardware and software platform for general-purpose robot. 
+# Open-source hardware and software platform for general-purpose robot. 
 
 * **Robopilot** : a python self driving library
 * **Robocrawler** :  open hardware platform
